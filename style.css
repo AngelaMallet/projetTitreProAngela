@@ -1,0 +1,18 @@
+#presentation{
+display: block;
+position: relative;
+text-align: center;
+}
+h1{
+font-size: 3em;
+mix-blend-mode: multiply;
+padding: 50px;
+}
+#magic-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: #fe4902;
+}
