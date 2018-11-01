@@ -1,14 +1,29 @@
 #presentation{
-text-align: center;
-padding: 100px;
+  text-align: center;
+  padding: 100px;
 }
 h1{
-font-size: 3em;
-font-weight: 100;
-mix-blend-mode: multiply;
-padding: 50px;
+  font-size: 2.4em;
+  font-weight: 100;
+  mix-blend-mode: multiply;
+  padding: 50px;
 }
-#navbarNavDropdown{
-  color: white;
-  font-size: 2em;
+#loginLeft{
+  height: 13em;
+  background: -webkit-linear-gradient(12deg, rgb(250, 217, 97), rgb(255, 153, 177));
+  background: linear-gradient(12deg, rgb(250, 217, 97), rgb(255, 153, 177));
+
+}
+#userRight{
+  height: 13em;
+  background: -webkit-linear-gradient(12deg, rgb(250, 217, 97), rgb(255, 153, 177));
+  background: linear-gradient(12deg, rgb(250, 217, 97), rgb(255, 153, 177));
+
+}
+#userSpace{
+  text-align: center;
+}
+button{
+  mix-blend-mode: multiply;
+  height: 3em;
 }
