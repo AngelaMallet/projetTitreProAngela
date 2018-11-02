@@ -1,0 +1,80 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+}
+#navId{
+mix-blend-mode: multiply;
+}
+#presentation{
+  text-align: center;
+  padding: 100px;
+}
+p{
+  color: grey;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  color: grey;
+}
+h1{
+  font-size: 1.3em;
+  font-weight: 100;
+  mix-blend-mode: multiply;
+  padding: 50px;
+}
+#titleH1{
+  color: grey;
+}
+h3{
+  font-size: 1.3rem;
+  text-align: center;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+mark{
+  background: -webkit-linear-gradient(173deg, rgb(255, 154, 177), rgb(250, 217, 98));
+  background: linear-gradient(173deg, rgb(255, 154, 177), rgb(250, 217, 98));
+  color: white;
+  padding: 10px;
+}
+#colText{
+  text-align: center;
+}
+button{
+  margin-top: 6em;
+}
+#left{
+border: 1px solid white;
+background: -webkit-linear-gradient(173deg, rgb(255, 154, 177), rgb(250, 217, 98));
+background: linear-gradient(173deg, rgb(255, 154, 177), rgb(250, 217, 98));
+height: 13em;
+text-align: center;
+}
+#right{
+border: 1px solid white;
+background: -webkit-linear-gradient(173deg, rgb(255, 154, 177), rgb(250, 217, 98));
+background: linear-gradient(173deg, rgb(255, 154, 177), rgb(250, 217, 98));
+height: 13em;
+text-align: center;
+}
+#block{
+  border-image: linear-gradient(#FAD961, #FF99B1) 5;
+  background-color: #fff1e1;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 200px) and (max-width: 780px) {
+  #presentation{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #h1Header{
+    font-size: 1rem;
+    padding: 0;
+  }
+  #logoHeader{
+    display: none;
+  }
+}

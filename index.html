@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <meta charset="utf-8" />
+  <link rel="icon" href="Logo Linkuscompagnie 2018.png" type="image/x-icon" />
+  <title>Le petit kiosque</title>
+</head>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"id="navId"style="font-size: 1em;">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" width="50" height="50" class="vertical-align: baseline;" alt="petit logo" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Accueil</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Espace client
+        </a>
+        <!-- bloc menu déroulant -->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#"style="font-size: 0.8em;line-height: 1;font-weight: 400;">Login</a>
+          <a class="dropdown-item" href="#"style="font-size: 0.8em;line-height: 1;font-weight: 400;">Créer un compte</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownB" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Billetterie
+        </a>
+        <!-- bloc menu déroulant -->
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#" style="font-size: 0.8em;line-height: 1;font-weight: 400;">Créer une billetterie</a>
+          <a class="dropdown-item" href="#" style="font-size: 0.8em;line-height: 1;font-weight: 400;">Acheter un billet</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container" id="presentation">
+  <img class="img-fluid" id="logoHeader" src="img/logo.png" alt="image du logo" width="300" height="300">
+  <h1 id="h1Header">Bonjour et bienvenue sur votre espace de billeterie</h1>
+</div>
+</head>
+  <div class="container-flex">
+    <div class="row user">
+        <div class="col-md-6"id="left"><button type="button" class="btn btn-outline-light" style="font-size: 1.1rem;font-weight: 500;margin-top: 5em;">LOGIN</button></button></div>
+        <div class="col-md-6"id="right"><button type="button" class="btn btn-outline-light" style="font-size: 1.1rem;font-weight: 500;;margin-top: 5em;">CRÉER UN COMPTE</button></div>
+    </div>
+  </div>
+  <div class="jumbotron text-center" id="block">
+    <h1 id="titleH1">Une billetterie personnalisable pour vos évènements</h1>
+    <p>Très simple d'utilisation!</p>
+  </div>
+
+  <div class="container">
+    <div class="row"id="colText">
+      <div class="col-sm-4">
+      <mark style="font-size: 1.1rem;line-height: 5;font-weight: 500;">Créer un évènements</mark>
+        <p>Il vous suffit de créer un compte client et de remplir le formulaire.</p>
+      </div>
+      <div class="col-sm-4">
+        <mark style="font-size: 1.1rem;line-height: 5;font-weight: 500;">Acheter un billet</mark>
+        <p>Il est possible de retrouver une billetterie grace à la référence.</p>
+      </div>
+      <div class="col-sm-4">
+        <mark style="font-size: 1.1rem;line-height: 5;font-weight: 500;">Communiquer</mark>
+        <p>Vous pouvez partager vos évènements et mettre un lien direct vers votre billetterie.</p>
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
